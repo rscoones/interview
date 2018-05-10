@@ -11,8 +11,7 @@ export default class App extends Component {
   }
 
   handleJobCount(jobCount) {
-    // todo
-    console.log(jobCount)
+    this.setState({jobCount})
   }
 
   render() {
