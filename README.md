@@ -23,11 +23,11 @@ Timed: 1 hour
 Create the small test job capture application from the interview. The screenshots have been included in this zip.
 
 We are just looking for the component markup and structure.
-*No logic or state management is required. Styling is also not important, react-bootstrap has been included in this project.*
+*We are **NOT** looking for logic or state management is required. Styling is also not important, react-bootstrap has been included in this project.*
 
 
 ## Extra
-*Only do this if you complete the first task in time and are happy with it. Not doing this task will not impact negatively on your test.*
+***Only do this if you complete the first task in time and are happy with it. Not doing this task will not impact negatively on your test.***
 
 There is a todo list tab with a (very) basic to do list. Improve it however you feel best.
 
