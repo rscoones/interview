@@ -24,9 +24,9 @@ Create the small test job capture application from the interview. The screenshot
 
 We are just looking for the component markup and structure.
 
-*We are **not** looking for logic or state management.*
-*Styling is also **not** important, react-bootstrap has been included in this project but you are not required to use it.*
-*Feel free to include any reasonable 3rd party modules (MaterialUI etc.)*
+- *We are **not** looking for logic or state management.*
+- *Styling is also **not** important, react-bootstrap has been included in this project but you are not required to use it.*
+- *Feel free to include any reasonable 3rd party modules (MaterialUI etc.)*
 
 
 ## Extra
