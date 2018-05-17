@@ -20,7 +20,8 @@ See https://www.npmjs.com/package/react-scripts for more details
 
 Timed: 1 hour
 
-Create the small test job capture application from the interview. The screenshots have been included in this zip.
+Create a small job capture application. The screenshots have been included in this zip.
+A user can have 1-3 jobs or be unemployed (0 jobs).
 
 We are just looking for the component markup and structure.
 
@@ -37,4 +38,4 @@ There is a todo list tab with a (very) basic to do list. Improve it however you 
 
 ## Submission
 
-Re-zip the file and email it back (tip: don't include the node_modules folder!)
+Upload the zip file to a cloud storage of your choice, just make sure its accessible. (e.g. GoogleDrive, github) (tip: don't include the node_modules folder!)
