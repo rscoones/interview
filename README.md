@@ -1,41 +1,68 @@
-## Table of Contents
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- [Running the project](#running-the-project)
-- [Brief](#brief)
-- [Extra](#extra)
+## Available Scripts
 
-## Running the project
+In the project directory, you can run:
 
-This project has been set up with the standard react-cli script.
-Use:
-```
-$ npm install
-$ npm start
-```
+### `npm start`
 
-See https://www.npmjs.com/package/react-scripts for more details
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-## Brief
+### `npm test`
 
-Timed: 1 hour
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Create a small job capture application. The screenshots have been included in this zip.
-A user can have 1-3 jobs or be unemployed (0 jobs).
+### `npm run build`
 
-We are just looking for the component markup and structure.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- *We are **not** looking for logic or state management.*
-- *Styling is also **not** important, react-bootstrap has been included in this project but you are not required to use it.*
-- *Feel free to include any reasonable 3rd party modules (MaterialUI etc.)*
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Extra
-***Only do this if you complete the first task in time and are happy with it. Not doing this task will not impact negatively on your test.***
+### `npm run eject`
 
-There is a todo list tab with a (very) basic to do list. Improve it however you feel best.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Submission
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Upload the zip file to a cloud storage of your choice, just make sure its accessible. (e.g. GoogleDrive, github) (tip: don't include the node_modules folder!)
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
