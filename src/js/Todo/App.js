@@ -1,7 +1,7 @@
-import React, {Component} from "react"
+import React, {PureComponent} from "react"
 import {Button, ListGroupItem, ListGroup} from "react-bootstrap"
 
-export default class App extends Component {
+export default class App extends PureComponent {
   constructor(props) {
     super(props)
 
@@ -13,8 +13,10 @@ export default class App extends Component {
   handleClick = () => {
     const p = prompt();
     this.setState(({data}) => {
-      data.push(p)
-      return {data}
+      if (p) {
+        data.push(p)
+      }
+      return {data: [...data]}
     })
   }
 
