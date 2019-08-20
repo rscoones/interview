@@ -30,7 +30,7 @@ export default class App extends PureComponent<Props> {
           <ControlLabel>Income</ControlLabel>
           <InputGroup>
             <InputGroup.Addon>£</InputGroup.Addon>
-            <FormControl type="text" placeholder="Enter amount" />
+            <FormControl type="number" placeholder="Enter amount" />
           </InputGroup>
         </FormGroup>
       </Panel>
