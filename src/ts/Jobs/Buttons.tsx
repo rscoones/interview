@@ -16,7 +16,7 @@ export default class Buttons extends PureComponent<Props> {
   render() {
     const {options, value, onChange} = this.props
     return (
-      <ButtonGroup>
+      <ButtonGroup className="jobs__countButtons">
         {options.map((option) =>
           <Button key={option.value} onClick={() => onChange(option)} className={value === option.value ? "selected" : ""}>{option.label}</Button>
         )}

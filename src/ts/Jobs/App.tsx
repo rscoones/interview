@@ -1,5 +1,7 @@
 import React, {PureComponent} from "react"
 import Buttons, { Option } from "./Buttons"
+import Job from "./Job"
+import NoJob from "./NoJob"
 
 const OPTIONS: Option[] = [
   {label: "0", value: 0},
@@ -25,11 +27,15 @@ export default class App extends PureComponent<Props, State> {
 
   render() {
     const {jobCount} = this.state
+    const jobs = Array.from(Array(jobCount), (_, x) => ({id: x}))
 
     return (
       <div>
         <Buttons options={OPTIONS} value={jobCount} onChange={this.handleJobCount} />
-        {/** @todo: add job displays */}
+        {jobs.map((job, i) =>
+          <Job key={job.id} number={i+1} />
+        )}
+        {jobs.length === 0 && <NoJob />}
       </div>
     )
   }
