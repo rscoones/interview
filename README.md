@@ -2,6 +2,7 @@
 
 - [Running the project](#running-the-project)
 - [Brief](#brief)
+- [TS or JS, your choice](#ts-or-js)
 - [Extra](#extra)
 
 ## Running the project
@@ -28,6 +29,14 @@ We are just looking for the component markup and structure.
 - *We are **not** looking for logic or state management.*
 - *Styling is also **not** important, react-bootstrap has been included in this project but you are not required to use it.*
 - *Feel free to include any reasonable 3rd party modules (MaterialUI etc.)*
+
+[React-Bootstrap docs](https://5c507d49471426000887a6a7--react-bootstrap.netlify.com/)
+
+
+## TS or JS, your choice
+
+- Pick one by setting variable `USE_TYPESCRIPT` in `src/Home/App.tsx`
+- Using one or the other will not negatively reflect on your test result, use whatever you are more confident with.
 
 
 ## Extra
