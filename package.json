@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/react": "^16.9.1",
+    "@types/react": "^16.14.65",
     "@types/react-bootstrap": "^0.32.4",
     "react": "^16.9.0",
     "react-bootstrap": "^0.32.4",
